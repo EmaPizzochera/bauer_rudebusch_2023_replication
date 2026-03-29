@@ -39,11 +39,11 @@ How to set up your folder
 - The R code assumes that the working directory is the ROOT folder, which must be organized as follows
 
 ROOT (your main working directory)\
- |- data (stores data)
- |- R (stores scripts)
- |- results (stores .RData files produced by scripts)
-       |- plots (stores plots produced by scripts)
-       |- tabs (stores tables produced by scripts)
+ |- data (stores data)\
+ |- R (stores scripts)\
+ |- results (stores .RData files produced by scripts)\
+       |- plots (stores plots produced by scripts)\
+       |- tabs (stores tables produced by scripts)\
 
 # Replication scripts
 All the following scripts can be called from 'main.R':
