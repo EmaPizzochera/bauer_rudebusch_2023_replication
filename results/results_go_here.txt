@@ -1,0 +1,2 @@
+This file is just a placeholder so that the Dataverse repository contains a
+"results" folder.
