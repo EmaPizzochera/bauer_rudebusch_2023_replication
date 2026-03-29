@@ -1,5 +1,4 @@
-# bauer_rudebusch_2023_replication
-# This repository contains the updated files to replicate the results in "The rising cost of climate change: evidence from the bond market" by M. Bauer and G. Rudebusch (Review of Economics and Statistics, 2023).
+**This repository contains the updated files to replicate the results in "The rising cost of climate change: evidence from the bond market" by M. Bauer and G. Rudebusch (Review of Economics and Statistics, 2023).**
 
 The codes in this folder are an improved version of the original replication package provided by the authors.
 
