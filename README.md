@@ -38,7 +38,7 @@ R packages (also load dependencies)
 How to set up your folder
 - The R code assumes that the working directory is the ROOT folder, which must be organized as follows
 
-ROOT (your main working directory)
+ROOT (your main working directory)\
  |- data (stores data)
  |- R (stores scripts)
  |- results (stores .RData files produced by scripts)
