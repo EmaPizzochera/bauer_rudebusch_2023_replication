@@ -45,41 +45,41 @@ ROOT (your main working directory)\
 &nbsp;&nbsp;&nbsp;&nbsp;       |- tabs (stores tables produced by scripts)\
 
 # Replication scripts
-All the following scripts can be called from 'main.R':
+All the scripts can be called from 'main.R', in the following order:
 
 0. Utility code files
 These files contain functions that are used by the other scripts.
-- 'setup.R' -- makes sure the relevant R packages are installed
-- 'data_fns.R' -- contains functions for loading data
-- 'uc_fns.R' -- contains functions for estimating the UC model
-- 'sdr_fns.R' -- contains functions for generating term structures of SDRs using simulation
+- **setup.R**: makes sure the relevant R packages are installed
+- **data_fns.R**: contains functions for loading data
+- **uc_fns.R**: contains functions for estimating the UC model
+- **sdr_fns.R**: contains functions for generating term structures of SDRs using simulation
 
-1. 'estimate_uc_real_rate.R'
+1. **estimate_uc_real_rate.R**
   - Estimates the UC model. Allows to toggle between 1y and 10y rate (main runs both)
   - Saves estimation results to 'results' folder.
 
-2. 'figure_1.R' 
+2. **figure_1.R**
   - produces and saves Figure 1 (estimates of r*)
   
-3. 'sdr_uc.R'
+3. **sdr_uc.R**
   - Calculates term structures of SDRs for UC model. Allows to toggle between 1y and 10y rate (main runs both)
   - Saves term structures to 'results' folder
 
-4. 'ar_meanshift.R'
+4. **ar_meanshift.R**
   - Estimates AR model with break in mean and calculate term structures of SDRs. Allows to toggle between 1y and 10y rate (main runs both)
   - Saves term structures to 'results' folder.
 
-5. 'ar_learning.R'
+5. **ar_learning.R**
   - Estimates AR model with exponential smoothing/learning and calculate term structures of SDRs. Allows to toggle between 1y and 10y rate (main runs both)
   - Saves term structures to 'results' folder.
 
-6. 'table_1.R'
+6. **table_1.R**
   - produces and saves in .tex format Table 1
 
-7. 'figure_2.R' 
+7. **figure_2.R** 
   - produces and saves Figure 2 (estimates of SDR term structure for 1y and 10y rate)
 
-8. 'scc.R'
+8. **scc.R**
   - Calculate the estimates of the social cost of carbon.
   - Requires as input term structures of SDRs in 'results' folder (see above scripts) and DICE model damages in 'data' folder.
   - Allows to toggle between DICE-H and DICE-D model (main runs both)
