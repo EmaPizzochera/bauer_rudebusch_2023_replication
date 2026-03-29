@@ -4,23 +4,23 @@
 The codes in this folder are an improved version of the original replication package provided by the authors.
 
 # DESCRIPTION OF THE DATASETS
-- GS1.csv -- one-year constant-maturity Treasury yield from FRED
-- GS10.csv -- ten-year constant-maturity Treasury yield from FRED
-- HISTDATA_FRBUS.TXT -- data package for FRB/US model of the Federal Reserve Board
+- GS1.csv: one-year constant-maturity Treasury yield from FRED
+- GS10.csv: ten-year constant-maturity Treasury yield from FRED
+- HISTDATA_FRBUS.TXT: data package for FRB/US model of the Federal Reserve Board
     - See https://www.federalreserve.gov/econres/us-models-package.htm
-- MedianGrowthRate_CPI.csv -- median CPI inflation expectation from Livingston survey
+- MedianGrowthRate_CPI.csv: median CPI inflation expectation from Livingston survey
     - See https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/livingston-historical-data
 - r* estimates from literature, for references see Online Appendix 
-    - rstar_delnegro.csv -- Del Negro et al. (2017)
-    - rstar_jm.csv -- Johannsen and Mertense (2016)
-    - rstar_kiley.csv -- Kiley (2020)
-    - rstar_lw (2016) -- Laubach and Williams (2016)
+    - rstar_delnegro.csv: Del Negro et al. (2017)
+    - rstar_jm.csv: Johannsen and Mertense (2016)
+    - rstar_kiley.csv: Kiley (2020)
+    - rstar_lw (2016): Laubach and Williams (2016)
     - Note: These are all *smoothed estimates* based on the state space models in these published paper.
 - Damage profiles for DICE models from the literature, for details see the paper and the Online Appendix
-    - dice_2016_damages.csv -- DICE-2016 model (Nordhaus, 2017)
-    - dice_newell_pizer_damages.csv -- DICE-94 model (Nordhaus, 1994) used in Newell and Pizer (2003)
-    - dice_dfg_damages.csv -- DICE-Fair-Geoffroy model of Dietz et al. (2020)
-    - dice_haensel_damages.csv -- DICE model of Haensel et al. (2020)
+    - dice_2016_damages.csv: DICE-2016 model (Nordhaus, 2017)
+    - dice_newell_pizer_damages.csv: DICE-94 model (Nordhaus, 1994) used in Newell and Pizer (2003)
+    - dice_dfg_damages.csv: DICE-Fair-Geoffroy model of Dietz et al. (2020)
+    - dice_haensel_damages.csv: DICE model of Haensel et al. (2020)
 
 # SOFTWARE DESCRIPTION
 
@@ -39,8 +39,8 @@ How to set up your folder
 - The R code assumes that the working directory is the ROOT folder, which must be organized as follows
 
 ROOT (your main working directory)\
- |- data (stores data)\
- |- R (stores scripts)\
+  |- data (stores data)\
+  |- R (stores scripts)\
  |- results (stores .RData files produced by scripts)\
        |- plots (stores plots produced by scripts)\
        |- tabs (stores tables produced by scripts)\
